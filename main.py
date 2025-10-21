@@ -4,8 +4,8 @@ import pdfplumber
 from openpyxl import Workbook
 
 # Caminhos das pastas
-pdf_folder = r"C:"
-output_excel = r"C:\curriculos_extraidos.xlsx"
+pdf_folder = r"C:"                                 # caminho da pasta onde está os docs pdf
+output_excel = r"C:\curriculos_extraidos.xlsx"     # caminho de onde a planilha vai ser gerada, ps: lembrar de deixar o nome do arquivo no caminho
 
 # Criar planilha Excel
 wb = Workbook()
