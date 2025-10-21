@@ -4,8 +4,8 @@ import pdfplumber
 from openpyxl import Workbook
 
 # Caminhos das pastas
-pdf_folder = r"C:\Users\dsadm\Documents\pedro\samples"
-output_excel = r"C:\Users\dsadm\Documents\pedro\PdfToExcel\curriculos_extraidos.xlsx"
+pdf_folder = r"C:"
+output_excel = r"C:\curriculos_extraidos.xlsx"
 
 # Criar planilha Excel
 wb = Workbook()
